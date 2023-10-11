@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document of Countries</title>
+
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .head{
+        text-align: center;
+        color: #ffff;
+        background-color: rgb(80, 180, 180);
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    #card{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        color: rgb(239, 239, 239);
+    }
+
+    .post{
+        padding: 15px;
+        border: 1px solid rgb(7, 125, 115);
+        border-radius: 10px;
+        color: rgb(0, 0, 0);
+        gap: 20px;
+        height: auto;
+        text-align: center;
+    }
+    .post_id{
+        color: #10B881;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .pid{
+        color: black;
+    }
+    .p_title{
+        margin-bottom: 20px;
+        color: rgb(0, 201, 201);
+        text-align: center;
+        font-size: 18px;
+    }
+    .ptt{
+        color: black;
+    }
+    .images{
+        width: 300px;
+        height: 200px;
+    }
+    #btn_container{
+        display: flex;
+        margin-top: 20px;
+        gap: 5px;
+        justify-content: center;
+    }
+    </style>
+</head>
+<body>
+   <div class="head">
+    <h1>Country data</h1>
+   </div>
+    <section>
+        <div id="card"></div>
+        <div id="btn_container"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
